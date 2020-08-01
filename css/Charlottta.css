@@ -255,10 +255,10 @@ body {
 }
 
  #char{
-	width: 450px;
+	width: 550px;
 	height: 700px;
 /*	background: blue;*/
-	background-image: url("../img/granblue-fantasy-versus-gran-01-ps4-03feb20-en-us.png");
+	background-image: url("../img/Chalotte.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	float: right;
@@ -407,8 +407,6 @@ body {
    right: 0;
    transition-delay: 0s;
 }
-
-
 /*Footer*/
 .footer {
     width: 100%;
