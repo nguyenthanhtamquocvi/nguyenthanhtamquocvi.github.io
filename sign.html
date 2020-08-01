@@ -3,9 +3,35 @@
 <head>
 <meta charset="utf-8">
 <title>Sign in</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="css/signin.css">
-</head>
-<body>
+<body class="preloading">
+<div class="bod">
+  <div class="loader"> <span> <span></span> <span></span> <span></span> <span></span> </span>
+    <div class="base"> <span></span>
+      <div class="face"></div>
+    </div>
+  </div>
+  <div class="longfazers"> <span></span> <span></span> <span></span> <span></span> </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9&appId=1410885339018421";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+<script type="text/javascript">
+    $(window).load(function() {
+        $('body').removeClass('preloading');
+        $('.bod').delay(1000).fadeOut('fast');
+    });
+	   </script>
 <a href="index.html" class="hvr-buzz"><img src="img/logo warrrios.png" alt="Logo" width="105" height="100"  class="image"></a>
 <div class="container">
   <input id="signin" type="radio" name="tab" checked="checked"/>
