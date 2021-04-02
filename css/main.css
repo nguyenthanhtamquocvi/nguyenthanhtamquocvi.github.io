@@ -298,6 +298,7 @@ Author:         Mat Przegietka
 .icon_list li{
 	vertical-align: middle;
     display: table;
+	margin-bottom: 10px;
 }
 
 .icon_list li div,
@@ -1676,6 +1677,7 @@ align-items: center;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 50px;
+	
 }
 .teacher{
 width: 238px;
@@ -1703,5 +1705,11 @@ color: #FFFFFF;
 .BP-img{
 width: 717px;
 }
-
+.about-team{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+/*	background-color: aqua;*/
+}
 
