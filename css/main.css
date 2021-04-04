@@ -27,7 +27,7 @@ our-teamour-teamour-teamour-teamour-teamour-team
 
 
 /*--------------------------------------*/
-
+body,html{ overflow-x: hidden}
 .align-center {
 	text-align: center
 }
@@ -662,7 +662,7 @@ html {
 #main_content {
 	display: table;
 	overflow: hidden;
-	height: 120%;
+	height: 100%;
 	margin-top: -5.285rem;
 }
 
@@ -801,7 +801,7 @@ object {
 	margin-bottom: 1rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 }
 
@@ -1058,6 +1058,8 @@ iframe {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-repeat: no-repeat;
+	
 	color: white;
 }
 
@@ -1684,9 +1686,11 @@ label {
 }
 
 .home_content2 {
+	width: 50%;
 	margin-top: -8rem;
 	display: flex;
 	justify-content: center;
+	
 }
 
 .bg-gradient {
@@ -1696,7 +1700,6 @@ label {
 	border-radius: 400px 400px 20px 20px;
 	background: linear-gradient(180deg, rgba(198, 255, 221, 0.8) 0%, rgba(251, 215, 134, 0.8) 53.65%, rgba(247, 155, 121, 0.8) 100%);
 }
-
 .hand-black {
 	position: absolute;
 	align-self: flex-start;
