@@ -99,7 +99,6 @@ Responsiveness Fixes
 	.home_mockup_image {
 			top:0rem
 	}
-	
 	.social_icons_container {
     	text-align:center!important
 	}
@@ -124,6 +123,7 @@ Responsiveness Fixes
 	
 	.navigation_desktop ul li, .menu_bar_navigation ul li { float:right; }	
 	.mockup_container img.mockup_front {position: relative;}
+	.apple-flat, .google-flat{right: 0px; left: 0px;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -137,5 +137,6 @@ Responsiveness Fixes
 @media (min-width: 992px) and (max-width: 1199px) {
 	.mockup.mockup-right img { margin-right:0; width:25rem; }
 	.mockup.mockup-left img { margin-left:0; width:25rem; }
-	.home_mockup_image { top:-20rem }	
+	.home_mockup_image { top:-20rem }
+	
 }

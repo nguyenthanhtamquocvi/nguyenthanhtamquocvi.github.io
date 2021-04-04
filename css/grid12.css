@@ -150,16 +150,19 @@
   .hidden-sm {
     display: none !important;
   }
+	
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
+	  
   }
 }
 @media (min-width: 1200px) {
   .hidden-lg {
     display: none !important;
   }
+	.our-team{width: 100%}
 }
 .visible-print {
   display: none !important;
@@ -239,6 +242,8 @@
   .container {
     width: 1170px;
   }
+	.apple-flat{right: 150px;}
+	.googlep-flat{left: 150px}
 }
 .container-fluid {
   margin-right: auto;
